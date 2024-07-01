@@ -90,6 +90,8 @@
 
     // Obtener las propiedades desde la API
     fetch('http://localhost:3000/propiedades')
+    
+  
       .then(response => response.json())
       
       .then(data => displayProperties(data))
